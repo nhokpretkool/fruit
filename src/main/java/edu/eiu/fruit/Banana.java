@@ -1,8 +1,8 @@
 package edu.eiu.fruit;
 
 public class Banana implements IFruit {
-    public static final String NAME = "Banana";
-    public static final int ROLL_MULTIPLIER = 0;
+    private static final String NAME = "Banana";
+    private static final int ROLL_MULTIPLIER = 0;
     public String getName() {
         return NAME;
     }
